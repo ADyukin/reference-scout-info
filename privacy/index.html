@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for Reference Scout, a personal read-only Pinterest reference search assistant.">
+  <title>Privacy policy — Reference Scout</title>
+  <style>
+    :root{color-scheme:light;--ink:#18201f;--muted:#687371;--paper:#f5f7f3;--card:#fff;--line:#e2e7e1;--green:#0c715e}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.65 Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--green)}header,main,footer{width:min(100% - 40px,800px);margin:auto}header{height:82px;display:flex;align-items:center;border-bottom:1px solid var(--line)}.brand{font-size:17px;font-weight:700;letter-spacing:-.03em;text-decoration:none;color:var(--ink)}.brand-mark{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:9px;background:var(--green);color:#fff;margin-right:9px;font-size:15px}
+    main{padding:62px 0 84px}h1{margin:0 0 8px;font-size:clamp(36px,6vw,54px);line-height:1.05;letter-spacing:-.055em} .updated{color:var(--muted);font-size:13px;margin-bottom:34px}h2{margin:30px 0 8px;font-size:19px;letter-spacing:-.025em}p,li{color:#46514e}p{margin:9px 0}ul{padding-left:22px}li{padding:3px 0}.callout{padding:18px 20px;background:var(--card);border:1px solid var(--line);border-radius:14px;margin:25px 0}footer{padding:22px 0 34px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}footer a{text-decoration:none}
+    @media(max-width:640px){header,main,footer{width:min(100% - 32px,800px)}header{height:70px}main{padding:46px 0 62px}}
+  </style>
+</head>
+<body>
+  <header><a class="brand" href="/"><span class="brand-mark">R</span>Reference Scout</a></header>
+  <main>
+    <h1>Privacy policy</h1>
+    <div class="updated">Last updated: November 7, 2026</div>
+    <p>This policy describes the planned personal Reference Scout integration and this informational website. Reference Scout is an independent project, not affiliated with Pinterest, Inc.</p>
+    <div class="callout"><strong>In brief:</strong> the website does not ask you to sign in or submit personal information. The planned MCP integration reads Pinterest board and Pin information only from the account that authorizes it, and is designed to be read-only.</div>
+    <h2>Information the website handles</h2>
+    <p>The informational pages do not contain account forms, advertising trackers, or analytics scripts. The website does not receive Pinterest credentials or Pin data. The hosting infrastructure may process basic technical request information, such as IP address, browser headers, and requested page, to deliver and protect the site under the hosting provider's own policies.</p>
+    <h2>Information the planned integration handles</h2>
+    <p>When the MCP integration is configured by an account owner, it requests board and saved Pin information available to that Pinterest account and authorized by the granted API scopes. This can include board names and descriptions, Pin titles, descriptions, alt text, links, and image URLs. The integration is intended to search the owner's saved material and return matching references to the AI client the owner is using.</p>
+    <p>The Pinterest access token is supplied by the local MCP host or stored in the owner's operating-system credential store. It is sent to Pinterest's official API to make authorized requests; it is not sent to this website. The integration does not publish, edit, or delete Pins or boards.</p>
+    <h2>AI client and Pinterest</h2>
+    <p>Search results are returned to the AI client/MCP host selected by the user. That provider may process the text and image URLs as part of the user's request under its own privacy terms. Pinterest processes API requests under its own <a href="https://policy.pinterest.com/en/privacy-policy">Privacy Policy</a> and developer terms. The user should review those policies before connecting the integration.</p>
+    <h2>Retention and sharing</h2>
+    <p>Reference Scout does not operate a separate database for Pinterest board or Pin data and does not sell or share such data for advertising. The AI provider, Pinterest, the local MCP host, and the site hosting provider may retain information according to their respective policies and settings. Users can revoke the integration's Pinterest authorization in Pinterest account settings and remove a locally stored token from their operating-system credential store.</p>
+    <h2>Children</h2>
+    <p>Reference Scout is a general design-research tool and is not directed to children.</p>
+    <h2>Changes</h2>
+    <p>This policy may be updated if the integration's data handling changes. The date above indicates the latest revision.</p>
+    <h2>Contact</h2>
+    <p>For privacy questions about the integration, contact the developer through the Pinterest developer account associated with the Reference Scout app. For information handled by Pinterest or the AI client, contact those providers directly.</p>
+    <p><a href="/">Return to Reference Scout</a></p>
+  </main>
+  <footer>Reference Scout · Independent personal project</footer>
+</body>
+</html>
